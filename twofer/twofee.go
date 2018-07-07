@@ -1,7 +1,5 @@
 package twofer
 
-import "fmt"
-
 // ExampleShareWith() is an Example function. Examples are testable snippets of
 // Go code that are used for documenting and verifying the package API.
 // They may be present in some exercises to demonstrate the expected use of the
@@ -13,11 +11,11 @@ import "fmt"
 // Below the result of ShareWith() is passed to standard output
 // using fmt.Println, and this is compared against the expected output.
 // If they are equal, the test passes.
-func ExampleShareWith() {
-	h := ShareWith("")
-	fmt.Println(h)
-	// Output: One for you, one for me.
-}
+// func ExampleShareWith() {
+// 	h := ShareWith("")
+// 	fmt.Println(h)
+// Output: One for you, one for me.
+// }
 
 // ShareWith : Input string retrun string
 func ShareWith(s string) string {
